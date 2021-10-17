@@ -1,6 +1,6 @@
 .sign-up-hero {
     margin: 120px auto 0;
-    width: 100%;
+    width: 90%;
     max-width: 600px;
 }
 header {
@@ -19,6 +19,7 @@ header {
     margin: 0 0 20px;
     height: 50px;
     font-size: 16px;
+    cursor: pointer;
 }
 .sign-up-hero > hr {
     margin: 30px 0;

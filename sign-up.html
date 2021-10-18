@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/sign-in.css">
+    <title>Spacely.com Official Site | Workspaces, Event Centers, Seminar Halls and more.</title>
+</head>
+<body class="sign-up">
+    <header class="flex between"> 
+        <div class="logo flex" onclick="goToHomePage();">
+            <img src="" alt="">
+            <p>Spacely</p>
+        </div>
+        <div class="user-section flex">
+            <p><a href="#">Register a space</a></p>
+            <i class="fas fa-user-circle"></i>
+        </div>
+    </header>
+    <div class="sign-up-hero">
+        <div class="section-title">
+            <h1>Join Spacely</h1>
+            <p>No need for a suscription fee, just find the space you need</p>
+        </div>
+        <div class="button-block">
+            <button onclick="openSignUpWithEmailModal()">Sign up with Email</button>        
+            <button class="google-btn">Sign up with Google</button>
+        </div>
+        <p class="agree">By creating an account, you agree to Spacely's <span class="blue">Terms and Conditions</span> and <span class="blue">Privacy Policy</span> </p>
+        <hr>
+        <p class="have-account">Already have an account? <span class="blue"><a href="sign-in.html">Sign In</a></span></p>
+        <div class="sign-up-footer">
+            <p>All rights reserved</p>
+            <p>Copyright &copy; 2021 - Spacely.com</p>
+        </div>
+    </div>
+    <div class="modal" id="sign-up-with-email">
+        <div class="modal-body">
+            <div class="section-title flex between">
+                <h2>Sign Up With Email</h2>
+                <div class="close-modal" onclick="openSignUpWithEmailModal()">x</div>
+            </div>
+            <form action="#" class="sign-up-form">
+                <div class="">
+                    <input type="text" class="first-name" placeholder="First Name">
+                    <input type="text" class="last-name" placeholder="Last Name">
+                </div>
+                <input type="email" class="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <p>By creating an account, you agree to Spacely's <span class="blue">Terms and Conditions</span> and <span class="blue">Privacy Policy</span></p>
+                <input type="button" value="Create Account" class="submit">
+            </form> 
+        </div>
+        
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

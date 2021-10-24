@@ -2,6 +2,12 @@ function goToHomePage() {
     window.location.assign('index.html')
 }
 
+function showMobileNav() {
+    let mobileNav = document.querySelector('.mobile-nav')
+    mobileNav.classList.toggle('nav-active')
+    
+}
+
 // Apply header styles
 window.addEventListener('scroll', () => {
     let header = document.querySelector('header')
